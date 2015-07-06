@@ -54,7 +54,6 @@ public class MyThreadPool {
 		for(int i =0 ; i < 20; i++) {
 			System.out.println("Submitting Task: " + (i+1));
 			Runnable task = new Runnable() {
-				@Override
 				public void run() {
 					while(true) {
 						System.out.println(Thread.currentThread().getName() + ": Task.run()");

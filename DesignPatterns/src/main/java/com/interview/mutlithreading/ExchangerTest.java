@@ -22,7 +22,6 @@ class GenerateNumber implements Runnable {
 		this.exchanger = exchanger;
 	}
 	
-	@Override
 	public void run() {
 		Random random = new Random();
 		while(true) {
@@ -47,7 +46,6 @@ class ConsumingNumber implements Runnable {
 		this.exchanger = exchanger;
 	}
 	
-	@Override
 	public void run() {
 		while(true) {
 			try {

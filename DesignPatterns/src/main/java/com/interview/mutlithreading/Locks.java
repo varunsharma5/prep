@@ -41,14 +41,12 @@ public class Locks {
 		final Runner runner = new Runner();
 
 		Thread t1 = new Thread(new Runnable() {
-			@Override
 			public void run() {
 				runner.firstThread();
 			}
 		});
 
 		Thread t2 = new Thread(new Runnable() {
-			@Override
 			public void run() {
 				runner.secondThread();
 			}

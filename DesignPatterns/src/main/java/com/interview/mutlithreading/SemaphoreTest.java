@@ -12,7 +12,6 @@ public class SemaphoreTest {
 		
 		new Thread(new Runnable() {
 			
-			@Override
 			public void run() {
 				try {
 					test.criticalSection();
@@ -25,7 +24,6 @@ public class SemaphoreTest {
 		
 		new Thread(new Runnable() {
 			
-			@Override
 			public void run() {
 				try {
 					test.criticalSection();

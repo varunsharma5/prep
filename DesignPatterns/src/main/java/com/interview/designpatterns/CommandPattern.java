@@ -24,7 +24,6 @@ class LightOnCommand implements Command {
 		this.light = light;
 	}
 	
-	@Override
 	public void execute() {
 		light.swicthOn();
 	}
@@ -36,7 +35,6 @@ class LightOffCommand implements Command {
 		this.light = light;
 	}
 	
-	@Override
 	public void execute() {
 		light.switchOff();
 	}

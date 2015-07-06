@@ -43,7 +43,6 @@ public class ThreadingProbs {
 		Thread t1 = new Thread(new Runnable() {
 
 			
-			@Override
 			public void run() {
 				data.func1();
 			}
@@ -51,7 +50,6 @@ public class ThreadingProbs {
 
 		Thread t2 = new Thread(new Runnable() {
 
-			@Override
 			public void run() {
 				data.func2();
 			}
@@ -59,7 +57,6 @@ public class ThreadingProbs {
 
 		Thread t3 = new Thread(new Runnable() {
 
-			@Override
 			public void run() {
 				data.func3();
 			}

@@ -49,7 +49,6 @@ public class EvenOddUsingLocks {
 		
 		new Thread(new Runnable() {
 			
-			@Override
 			public void run() {
 				try {
 					while(true) {
@@ -64,7 +63,6 @@ public class EvenOddUsingLocks {
 		
 		new Thread(new Runnable() {
 			
-			@Override
 			public void run() {
 				try {
 					while(true) {

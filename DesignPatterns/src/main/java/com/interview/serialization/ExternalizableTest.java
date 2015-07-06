@@ -30,14 +30,12 @@ class TestClass implements Externalizable {
 		this.i = i;
 	}
 	
-	@Override
 	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
 //		System.out.println("TestClass.readExternal(): " + in.readInt());
 		setI(in.readInt());
 		
 	}
 
-	@Override
 	public void writeExternal(ObjectOutput out) throws IOException {
 		out.writeInt(getI());
 	}

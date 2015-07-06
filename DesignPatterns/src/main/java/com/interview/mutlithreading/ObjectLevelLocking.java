@@ -23,7 +23,6 @@ public class ObjectLevelLocking {
 		
 		Thread t1 = new Thread(new Runnable() {
 			
-			@Override
 			public void run() {
 				class1.increment();
 			}
@@ -31,7 +30,6 @@ public class ObjectLevelLocking {
 		
 		Thread t2 = new Thread(new Runnable() {
 			
-			@Override
 			public void run() {
 				class2.increment();
 			}

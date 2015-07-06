@@ -23,7 +23,6 @@ class MyStudent implements Comparable<MyStudent>{
 	public void setName(String name) {
 		this.name = name;
 	}
-	@Override
 	public int compareTo(MyStudent o) {
 		if(rollNum > o.getRollNum()) {
 			return 1;
